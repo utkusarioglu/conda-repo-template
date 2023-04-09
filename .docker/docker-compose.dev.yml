@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  conda-repo-template:
+    image: utkusarioglu/conda-devcontainer:1.0.10
+    environment:
+      PYTHONPATH: /utkusarioglu-com/templates/conda-repo-template
+    volumes:
+      - type: bind
+        source: ..
+        target: /utkusarioglu-com/templates/conda-repo-template
