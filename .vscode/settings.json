@@ -4,6 +4,10 @@
       "path": "/opt/conda/bin/python",
       "type": "pythonEnvironment"
     },
+    {
+      "path": "/usr/bin/python3",
+      "type": "pythonEnvironment"
+    }
   ],
   "runOnSave.commands": [
     {
