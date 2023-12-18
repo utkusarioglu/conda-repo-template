@@ -19,7 +19,8 @@
         "ms-toolsai.jupyter",
         "ms-python.black-formatter",
         "ms-python.vscode-pylance",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "ms-python.flake8"
       ]
     }
   },
